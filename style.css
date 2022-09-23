@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.center{ display: flex; align-items: center; justify-content: center; text-align: center;}
+
+.menu{ position: fixed; background-color: rgb(0, 0, 0); color: white; height: 8%;}
+.sfocatura{ background-color: rgb(2, 2, 2); width: 200%; height: 10%; margin-top: 1%; padding: 0%; position: fixed; filter: blur(1em); display: flex; margin-left: -30%;
+    z-index: 0;}
+
+.in{
+    scroll-behavior: smooth;
+
+    scroll-padding: 100%;
+
+}
+
+body{
+   
+    font-family: sans-serif;
+
+
+}
+
+div, section, span, ul, li, a, header{
+    box-sizing: border-box;
+}
+
+/*css reset*/
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    align-items: center;
+    position: center;
+    z-index: 999;
+}
+
+#menu li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+
+#menu li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+section{
+    width: 100%;
+    float: left;
+    height: 100vh;
+    position: relative;
+}
+
+#home{
+   background-color: #3d293f;
+}
+
+#about{
+     background-color: #ED6663;
+}
+
+#product{
+     background-color: #B52B65;
+}
+
+#pricing{
+     background-color: #3C2C3E;
+}
+
+#contact{
+     background-color: #B52B65;
+}
+
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+
+
+
+
+
+
